@@ -1,0 +1,33 @@
+{
+  "intents": [
+    {
+      "intent": "RequestVolunteers",
+      "slots": [
+        {
+          "name": "headCount",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "time",
+          "type": "AMAZON.TIME"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.StartOver"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
